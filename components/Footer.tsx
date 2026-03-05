@@ -17,12 +17,17 @@ export default function Footer() {
               alistairwebster.com
             </a>
             <span className="w-1 h-1 rounded-full bg-charcoal/20" />
-            <a href="#" className="transition-colors hover:text-charcoal">
+            <a
+              href="https://www.amazon.co.uk/dp/B0FTMB9GJ1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-charcoal"
+            >
               Book
             </a>
             <span className="w-1 h-1 rounded-full bg-charcoal/20" />
             <a
-              href="mailto:al@alistairwebster.com"
+              href="mailto:hello@aiwithal.com"
               className="transition-colors hover:text-charcoal"
             >
               Contact

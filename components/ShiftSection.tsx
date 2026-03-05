@@ -26,7 +26,7 @@ export default function ShiftSection() {
               </h2>
               <div className="mt-6 space-y-4">
                 <p className="body-text">
-                  Not a chatbot you prompt when you remember to. A system that processes your real inputs — meeting notes, project updates, client briefs — and turns them into structured, actionable next steps.
+                  Not a chatbot you prompt when you remember to. A system — built on Claude — that processes your real inputs — meeting notes, project updates, client briefs — and turns them into structured, actionable next steps.
                 </p>
                 <p className="body-text">
                   AI as an <strong className="text-charcoal font-medium">operating layer</strong> for your business. Always watching, always organising, always surfacing what matters — so your team can focus on the work that counts.

@@ -13,7 +13,11 @@ export default function AboutSection() {
             </h2>
             <div className="mt-6 space-y-4">
               <p className="body-text">
-                I built this system to run my own business — managing multiple projects, processing voice notes into action, keeping nothing in my head. Then I wrote the book on it.
+                I&rsquo;m Alistair Webster — a speaking and confidence coach, AI consultant, and co-founder of{" "}
+                <a href="https://freelancingforgood.com" target="_blank" rel="noopener noreferrer" className="text-sage font-medium hover:text-sage-dark transition-colors">Freelancing for Good</a>.
+                I built AI systems to run my own business — managing multiple ventures, processing voice notes into action, keeping nothing in my head. Then I wrote{" "}
+                <a href="https://claudeclarity.com" target="_blank" rel="noopener noreferrer" className="text-sage font-medium hover:text-sage-dark transition-colors"><em>Build Your AI-Powered Productivity System</em></a>{" "}
+                about it.
               </p>
               <p className="body-text">
                 Now I help other businesses do the same. Nothing theoretical — just the tools and workflows I rely on daily, tailored to how your business actually runs.
@@ -25,7 +29,7 @@ export default function AboutSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 text-sage font-semibold text-sm transition-colors hover:text-sage-dark"
             >
-              More about Al
+              More about Alistair
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
               </svg>

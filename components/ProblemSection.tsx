@@ -14,7 +14,7 @@ const problems = [
   {
     title: "The Tool Overload",
     description:
-      "ChatGPT, Copilot, Gemini... every week there's a new tool and no clear winner. You've spent more time evaluating than implementing.",
+      "ChatGPT, Copilot, Gemini, Claude... every week there's a new tool and a new claim. You've spent more time evaluating than implementing.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
@@ -53,7 +53,7 @@ export default function ProblemSection() {
             Everyone&rsquo;s adopting AI. You know you should be too.
           </h2>
           <p className="mt-5 text-lg text-terminal-text/60 max-w-xl">
-            You&rsquo;ve tried ChatGPT. You&rsquo;ve watched the videos. Nothing stuck.
+            You&rsquo;ve tried the tools. You&rsquo;ve watched the videos. Nothing stuck.
           </p>
         </ScrollReveal>
 
