@@ -34,6 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.usefathom.com/script.js" data-site="ZYGWDTLR" defer />
+      </head>
       <body
         className={`${fontSans.variable} ${fontDisplay.variable} antialiased font-sans`}
       >

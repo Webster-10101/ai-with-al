@@ -11,7 +11,7 @@ export default function BookSection() {
               Want to explore the methodology first?
             </h2>
             <p className="body-text mt-5 max-w-lg mx-auto">
-              The system behind AI Ignition — in book form.{" "}
+              The thinking behind the approach — in book form.{" "}
               <em className="font-display">Build Your AI-Powered Productivity System</em>{" "}
               walks you through the exact framework — available now on Amazon.
             </p>
