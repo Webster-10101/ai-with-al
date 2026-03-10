@@ -21,21 +21,11 @@ export default function BookSection() {
         <ScrollReveal delay={100}>
           <div className="mt-10 flex justify-center">
             <div className="card p-6 md:p-8 max-w-md w-full flex flex-col items-center text-center">
-              {/* Book cover placeholder */}
-              <div className="w-36 h-52 rounded-lg bg-gradient-to-br from-charcoal to-charcoal-light relative overflow-hidden shadow-[0_8px_32px_rgba(30,35,40,0.15)] mb-6">
-                <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
-                  <div className="w-8 h-[2px] bg-sage/50 mb-3" />
-                  <p className="font-display text-[11px] text-white/90 leading-tight text-center font-medium">
-                    Build Your AI-Powered Productivity System
-                  </p>
-                  <div className="w-8 h-[2px] bg-sage/50 mt-3" />
-                  <p className="font-sans text-[8px] text-white/50 mt-3 tracking-wider uppercase">
-                    Alistair Webster
-                  </p>
-                </div>
-                {/* Spine highlight */}
-                <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-white/[0.08]" />
-              </div>
+              <img
+                src="/book-cover.jpg"
+                alt="Build Your AI-Powered Productivity System by Alistair Webster"
+                className="w-36 h-auto rounded-lg shadow-[0_8px_32px_rgba(30,35,40,0.15)] mb-6"
+              />
 
               <h3 className="font-display text-lg font-medium text-charcoal">
                 Build Your AI-Powered Productivity System
