@@ -2,24 +2,24 @@ import ScrollReveal from "./ScrollReveal";
 
 const inclusions = [
   {
-    title: "Discovery session",
-    detail: "Map your workflows, your team's pain points, and where the opportunities are",
+    title: "Discovery call",
+    detail: "Map your workflows, priorities, and the highest-leverage opportunities before the workshop",
   },
   {
     title: "Half-day workshop",
-    detail: "Hands-on AI training and setup, tailored to how your business actually works",
+    detail: "Hands-on training and implementation tailored to how your team already works",
   },
   {
-    title: "Custom SOPs/Skills",
-    detail: "Built and implemented during the session, not just documented",
+    title: "Custom SOPs and workflows",
+    detail: "Built around your real work, with clear prompts, process, and ownership",
   },
   {
     title: "Opportunity audit",
-    detail: "Where AI saves your team the most time across your operations",
+    detail: "A clear view of where AI can save time across your operations and where it is not worth forcing",
   },
   {
-    title: "Clarity plan",
-    detail: "Your ongoing implementation roadmap to keep momentum after we leave",
+    title: "Implementation plan",
+    detail: "A rollout plan to keep momentum after the session",
   },
   {
     title: "30-day follow-up",
@@ -46,7 +46,7 @@ export default function OfferSection() {
               AI Ignition
             </h2>
             <p className="lead mt-4">
-              Half a day. Working systems. Real productivity.
+              Half a day. Clear priorities. Working systems.
             </p>
           </div>
         </ScrollReveal>
@@ -101,7 +101,7 @@ export default function OfferSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
               </svg>
               <span className="text-sm text-charcoal-light">
-                Full refund if not fully satisfied
+                Full refund if you do not feel the workshop delivered clear value
               </span>
             </div>
 

@@ -3,17 +3,17 @@
 import TerminalBlock from "./TerminalBlock";
 
 const heroTerminalLines = [
-  { type: "prompt" as const, text: 'claude "Review my day"' },
+  { type: "prompt" as const, text: 'claude "What needs attention across the team this week?"' },
   { type: "blank" as const, text: "" },
-  { type: "success" as const, text: "Scanned calendar, inbox, and project boards" },
+  { type: "success" as const, text: "Scanned inboxes, project boards, and meeting notes" },
   { type: "blank" as const, text: "" },
-  { type: "summary" as const, text: "━━ Today: Wednesday 12 Mar ━━" },
-  { type: "success" as const, text: "3 meetings (1 cancellable — supplier check-in)" },
-  { type: "success" as const, text: "7 emails drafted and ready for review" },
-  { type: "success" as const, text: "Proposal draft due Friday — on track" },
-  { type: "success" as const, text: "New project website ready for deploy" },
+  { type: "summary" as const, text: "━━ Weekly team scan ━━" },
+  { type: "success" as const, text: "Client proposal blocked — waiting on budget sign-off" },
+  { type: "success" as const, text: "Content plan drafted for next 10 days" },
+  { type: "success" as const, text: "Ops checklist turned into reusable SOP" },
+  { type: "success" as const, text: "2 follow-ups ready to send before Friday" },
   { type: "blank" as const, text: "" },
-  { type: "summary" as const, text: "Focus block recommended: 09:30–11:30 for proposal writing" },
+  { type: "summary" as const, text: "Recommended: assign budget follow-up and ship content batch today" },
 ];
 
 export default function Hero() {
@@ -29,15 +29,15 @@ export default function Hero() {
 
       <div className="container-page relative">
         <div className="max-w-3xl">
-          <p className="eyebrow animate-fade-up">AI Ignition</p>
+          <p className="eyebrow animate-fade-up">AI workshops for teams</p>
 
           <h1 className="heading-hero text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] mt-6 animate-fade-up stagger-1 text-balance">
-            AI will transform how you work.{" "}
-            <span className="heading-display text-sage">Let&rsquo;s get you ahead of the game.</span>
+            Cut through the AI noise.{" "}
+            <span className="heading-display text-sage">Build systems your team will actually use.</span>
           </h1>
 
           <p className="lead mt-6 md:mt-8 max-w-xl animate-fade-up stagger-2">
-            From uncertainty to a working system that multiplies your productivity in half a day.
+            Half-day workshops and hands-on implementation for founders, agencies, and small teams who want practical AI workflows, not more tools to evaluate.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10 animate-fade-up stagger-3">
@@ -54,7 +54,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-12 md:mt-16 animate-fade-up stagger-4 max-w-2xl">
-          <TerminalBlock lines={heroTerminalLines} title="claude — daily review" />
+          <TerminalBlock lines={heroTerminalLines} title="claude — weekly team scan" />
         </div>
       </div>
     </section>

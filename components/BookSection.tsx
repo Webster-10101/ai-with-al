@@ -8,12 +8,12 @@ export default function BookSection() {
           <div className="max-w-2xl mx-auto text-center">
             <p className="eyebrow">The book</p>
             <h2 className="heading-section text-2xl sm:text-3xl mt-5 text-balance">
-              Want to explore my methodology first?
+              More relevant if you are starting as an individual
             </h2>
             <p className="body-text mt-5 max-w-lg mx-auto">
-              The thinking behind my approach to personal productivity — in book form.{" "}
+              If your main goal is personal productivity rather than team implementation, start here.{" "}
               <em className="font-display">Build Your AI-Powered Productivity System</em>{" "}
-              walks you through the exact framework I use to manage my commitments — available now on Amazon.
+              walks through the system I use to run my own work. It is the best entry point for solo experimentation, and a future course will build on the same foundation.
             </p>
           </div>
         </ScrollReveal>
@@ -31,7 +31,7 @@ export default function BookSection() {
                 Build Your AI-Powered Productivity System
               </h3>
               <p className="text-sm text-charcoal-muted mt-2">
-                The complete guide to building AI systems that run themselves.
+                A practical starting point for building your own AI productivity system.
               </p>
 
               <a
@@ -40,7 +40,7 @@ export default function BookSection() {
                 rel="noopener noreferrer"
                 className="btn-secondary mt-6 text-sm px-6 py-3"
               >
-                Get the Book — £3.70
+                Get the Book
                 <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                 </svg>

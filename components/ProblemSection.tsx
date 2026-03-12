@@ -2,9 +2,9 @@ import ScrollReveal from "./ScrollReveal";
 
 const problems = [
   {
-    title: "The Uncertainty Tax",
+    title: "The uncertainty tax",
     description:
-      "You know AI could help, but you don't know where to start. So you don't. Every week you feel like you're falling further behind and missing key opportunities.",
+      "You know AI could help, but it is hard to tell what is real, what is noise, and where to begin. So the decision gets pushed back again.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -12,9 +12,9 @@ const problems = [
     ),
   },
   {
-    title: "The Tool Overload",
+    title: "The tool overload",
     description:
-      "ChatGPT, Copilot, Gemini, Claude... every week there's a new tool and a new claim. You've spent more time evaluating than implementing. You're not sure what you're missing that others are seeing.",
+      "ChatGPT, Copilot, Gemini, Claude. Every week brings another tool and another claim. You've spent more time comparing products than improving workflows.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
@@ -22,9 +22,9 @@ const problems = [
     ),
   },
   {
-    title: "The Maintenance Problem",
+    title: "The adoption problem",
     description:
-      "You set something up once. It worked for a week. Now it's gathering dust. Without systems, AI experiments stay experiments.",
+      "A one-off prompt is not a system. Without clear workflows, ownership, and follow-through, AI experiments never become part of how the team works.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.384-3.108A2.25 2.25 0 015.25 9.95V6.15a2.25 2.25 0 01.786-1.712l5.384-3.108a2.25 2.25 0 012.16 0l5.384 3.108A2.25 2.25 0 0118.75 6.15v3.8a2.25 2.25 0 01-.786 1.712l-5.384 3.108a2.25 2.25 0 01-2.16 0z" />
@@ -50,10 +50,10 @@ export default function ProblemSection() {
         <ScrollReveal>
           <p className="eyebrow !text-sage-soft">The problem</p>
           <h2 className="heading-section text-2xl sm:text-3xl md:text-4xl mt-5 max-w-2xl text-balance">
-            Everyone&rsquo;s adopting AI. You know you should be too.
+            You do not need more AI news. You need a practical starting point.
           </h2>
           <p className="mt-5 text-lg text-terminal-text/60 max-w-xl">
-            You&rsquo;ve tried some of the tools. You&rsquo;ve heard the hype. Nothing actually changed.
+            Most teams are stuck between curiosity and overload. The gap is not motivation. It is clarity, implementation, and adoption.
           </p>
         </ScrollReveal>
 

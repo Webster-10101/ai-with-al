@@ -3,13 +3,13 @@ import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI with Al — AI Ignition for Your Business",
+  title: "AI with Al — Practical AI Workshops for Teams",
   description:
-    "From uncertainty to working AI systems in half a day. Hands-on Claude Code consulting that leaves you with custom SOPs, a clarity plan, and real momentum.",
+    "Practical AI workshops and implementation for founders, agencies, and small teams. Cut through the hype, focus on what works, and leave with usable systems.",
   openGraph: {
-    title: "AI with Al — AI Ignition for Your Business",
+    title: "AI with Al — Practical AI Workshops for Teams",
     description:
-      "From uncertainty to working AI systems in half a day. Hands-on Claude Code consulting.",
+      "Cut through the hype and build practical AI workflows your team will actually use.",
     type: "website",
     url: "https://aiwithal.com",
   },

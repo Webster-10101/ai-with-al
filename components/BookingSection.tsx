@@ -21,7 +21,7 @@ export default function BookingSection() {
               Book your discovery call
             </h2>
             <p className="mt-5 text-lg text-terminal-text/60 max-w-lg mx-auto">
-              60 minutes to map your workflows, identify the biggest opportunities, and see if AI Ignition is the right fit.
+              60 minutes to map your team workflows, identify the best starting point, and see whether AI Ignition is the right fit.
             </p>
 
             <div className="mt-10">
@@ -51,7 +51,7 @@ export default function BookingSection() {
                 },
                 {
                   step: "3",
-                  text: "Get a tailored proposal and plan, ready for implementation in the workshop",
+                  text: "Get a tailored workshop proposal and rollout plan",
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3">

@@ -2,15 +2,15 @@ import ScrollReveal from "./ScrollReveal";
 import TerminalBlock from "./TerminalBlock";
 
 const shiftTerminalLines = [
-  { type: "prompt" as const, text: 'claude "Campaign status across all clients"' },
+  { type: "prompt" as const, text: 'claude "Summarise ops blockers and next actions for the team"' },
   { type: "blank" as const, text: "" },
-  { type: "comment" as const, text: "# Campaign Overview — Week of 10 Feb" },
+  { type: "comment" as const, text: "# Team operations overview" },
   { type: "blank" as const, text: "" },
-  { type: "output" as const, text: "🟢 Acme Corp: Launch assets approved, scheduled for Thursday" },
-  { type: "output" as const, text: "🟡 GreenLeaf: Blog series 2/5 complete — writer needs brief for #3" },
-  { type: "output" as const, text: "🔴 Spark Studio: Social calendar empty next week — needs content by Wed" },
+  { type: "output" as const, text: "🟢 Sales follow-ups drafted from this week's meeting notes" },
+  { type: "output" as const, text: "🟡 Onboarding SOP needs final owner before rollout" },
+  { type: "output" as const, text: "🔴 Client reporting still manual — 3 hours lost every Friday" },
   { type: "blank" as const, text: "" },
-  { type: "summary" as const, text: "3 active campaigns · 1 urgent · Suggested: Brief writer + draft social batch" },
+  { type: "summary" as const, text: "Suggested next step: automate reporting and assign SOP ownership today" },
 ];
 
 export default function ShiftSection() {
@@ -22,11 +22,11 @@ export default function ShiftSection() {
             <ScrollReveal>
               <p className="eyebrow">Get on the front foot</p>
               <h2 className="heading-section text-2xl sm:text-3xl md:text-4xl mt-5 text-balance">
-                What if you had AI systems that actually ran themselves?
+                Turn AI into an operating layer for the team
               </h2>
               <div className="mt-6 space-y-4">
                 <p className="body-text">
-                  AI as an <strong className="text-charcoal font-medium">operating layer</strong> for your business and what matters in your life and work. Always watching, always organising, always surfacing what matters — so you and your team can focus on the work that counts.
+                  I help teams identify the handful of workflows where AI can save real time, reduce coordination overhead, and keep important things from slipping. No inflated promises. Just useful systems built around how you already work.
                 </p>
               </div>
             </ScrollReveal>
@@ -35,7 +35,7 @@ export default function ShiftSection() {
           <ScrollReveal delay={150}>
             <TerminalBlock
               lines={shiftTerminalLines}
-              title="claude — campaign overview"
+              title="claude — team ops overview"
             />
           </ScrollReveal>
         </div>
@@ -45,16 +45,16 @@ export default function ShiftSection() {
           <div className="grid sm:grid-cols-3 gap-8">
             {[
               {
-                label: "Discovery",
-                detail: "We map your workflows together, your pain points, and where you're leaking time or opportunities.",
+                label: "Diagnose",
+                detail: "We map the workflows, bottlenecks, and repeated decisions that are costing your team time.",
               },
               {
                 label: "Build",
-                detail: "Claude Code processes your real inputs — turning unstructured information into organised action.",
+                detail: "We implement practical workflows using your real materials, tools, and team context.",
               },
               {
-                label: "Get ahead",
-                detail: "You walk away with working systems, custom SOPs, and a plan your team can follow independently.",
+                label: "Embed",
+                detail: "You leave with clear SOPs, ownership, and a rollout plan so the system actually sticks.",
               },
             ].map((step, i) => (
               <div key={step.label} className="relative">

@@ -20,7 +20,7 @@ export default function AboutSection() {
                 about it.
               </p>
               <p className="body-text">
-                Now I help other businesses do the same. Nothing theoretical — just the tools and workflows I rely on daily, tailored to how your business actually runs.
+                Now I help teams figure out what is genuinely useful, what is mostly noise, and how to implement the bits that will actually save time. Nothing theoretical — just the tools and workflows I rely on daily, tailored to how your business actually runs.
               </p>
             </div>
             <a
