@@ -7,10 +7,10 @@ const inclusions = [
   },
   {
     title: "Half-day workshop",
-    detail: "Hands-on AI training, tailored to how your business actually works",
+    detail: "Hands-on AI training and setup, tailored to how your business actually works",
   },
   {
-    title: "Custom SOPs",
+    title: "Custom SOPs/Skills",
     detail: "Built and implemented during the session, not just documented",
   },
   {
@@ -41,12 +41,12 @@ export default function OfferSection() {
       <div className="container-page relative">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto">
-            <p className="eyebrow">The offer</p>
+            <p className="eyebrow">Take the leap</p>
             <h2 className="heading-hero text-3xl sm:text-4xl md:text-5xl mt-5">
               AI Ignition
             </h2>
             <p className="lead mt-4">
-              Half a day. Working systems. Real momentum.
+              Half a day. Working systems. Real productivity.
             </p>
           </div>
         </ScrollReveal>
@@ -79,13 +79,6 @@ export default function OfferSection() {
                 ))}
               </div>
 
-              {/* Pull quote */}
-              <div className="mt-8 pt-8 border-t border-charcoal/[0.06]">
-                <p className="font-display text-xl md:text-2xl italic text-charcoal leading-snug text-center">
-                  &ldquo;Walk away with working systems, not just ideas.&rdquo;
-                </p>
-              </div>
-
               {/* Price anchor */}
               <div className="mt-8 pt-8 border-t border-charcoal/[0.06] text-center">
                 <p className="text-2xl md:text-3xl font-display font-medium text-charcoal">
@@ -108,7 +101,7 @@ export default function OfferSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
               </svg>
               <span className="text-sm text-charcoal-light">
-                Satisfaction guaranteed — full refund if the investment hasn&rsquo;t paid for itself within 90 days
+                Full refund if not fully satisfied
               </span>
             </div>
 

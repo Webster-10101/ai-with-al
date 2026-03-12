@@ -30,7 +30,7 @@ const personas = [
   },
   {
     label: "Solo operators",
-    description: "You value your time fiercely. You need systems that handle the admin so you can focus on the work.",
+    description: "You wear every hat. AI systems handle the coordination so you can focus on the work that earns.",
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -56,7 +56,7 @@ export default function WhoSection() {
           <div className="text-center max-w-2xl mx-auto">
             <p className="eyebrow !text-sage-soft">Who this is for</p>
             <h2 className="heading-section text-2xl sm:text-3xl md:text-4xl mt-5 text-balance">
-              You know AI should be doing more for your business
+              You know AI should be doing more for you
             </h2>
             <p className="mt-4 text-lg text-terminal-text/60">
               The common thread? You&rsquo;re tired of experimenting and ready for systems that actually work.

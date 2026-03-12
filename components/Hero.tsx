@@ -3,14 +3,17 @@
 import TerminalBlock from "./TerminalBlock";
 
 const heroTerminalLines = [
-  { type: "prompt" as const, text: 'claude "Process the team standup notes"' },
+  { type: "prompt" as const, text: 'claude "Review my day"' },
   { type: "blank" as const, text: "" },
-  { type: "success" as const, text: "Parsed standup notes from 4 team members" },
-  { type: "success" as const, text: "Updated project board: 3 tasks → In Progress, 1 → Done" },
-  { type: "success" as const, text: "Flagged blocker: Design assets delayed — notified Sarah" },
-  { type: "success" as const, text: "Generated client status report for Thursday review" },
+  { type: "success" as const, text: "Scanned calendar, inbox, and project boards" },
   { type: "blank" as const, text: "" },
-  { type: "summary" as const, text: "4 projects updated · 1 blocker flagged · Status report ready" },
+  { type: "summary" as const, text: "━━ Today: Wednesday 12 Mar ━━" },
+  { type: "success" as const, text: "3 meetings (1 cancellable — supplier check-in)" },
+  { type: "success" as const, text: "7 emails drafted and ready for review" },
+  { type: "success" as const, text: "Proposal draft due Friday — on track" },
+  { type: "success" as const, text: "New project website ready for deploy" },
+  { type: "blank" as const, text: "" },
+  { type: "summary" as const, text: "Focus block recommended: 09:30–11:30 for proposal writing" },
 ];
 
 export default function Hero() {
@@ -29,12 +32,12 @@ export default function Hero() {
           <p className="eyebrow animate-fade-up">AI Ignition</p>
 
           <h1 className="heading-hero text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] mt-6 animate-fade-up stagger-1 text-balance">
-            You know AI could transform your business.{" "}
-            <span className="heading-display text-sage">Let&rsquo;s make it happen.</span>
+            AI will transform how you work.{" "}
+            <span className="heading-display text-sage">Let&rsquo;s get you ahead of the game.</span>
           </h1>
 
           <p className="lead mt-6 md:mt-8 max-w-xl animate-fade-up stagger-2">
-            From uncertainty to working systems in half a day.
+            From uncertainty to a working system that multiplies your productivity in half a day.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10 animate-fade-up stagger-3">
@@ -51,7 +54,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-12 md:mt-16 animate-fade-up stagger-4 max-w-2xl">
-          <TerminalBlock lines={heroTerminalLines} title="claude — processing standup" />
+          <TerminalBlock lines={heroTerminalLines} title="claude — daily review" />
         </div>
       </div>
     </section>

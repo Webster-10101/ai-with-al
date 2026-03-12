@@ -4,7 +4,7 @@ const problems = [
   {
     title: "The Uncertainty Tax",
     description:
-      "You know AI could help, but you don't know where to start. So you don't. Every week the gap between you and your competitors widens a little more.",
+      "You know AI could help, but you don't know where to start. So you don't. Every week you feel like you're falling further behind and missing key opportunities.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -14,7 +14,7 @@ const problems = [
   {
     title: "The Tool Overload",
     description:
-      "ChatGPT, Copilot, Gemini, Claude... every week there's a new tool and a new claim. You've spent more time evaluating than implementing.",
+      "ChatGPT, Copilot, Gemini, Claude... every week there's a new tool and a new claim. You've spent more time evaluating than implementing. You're not sure what you're missing that others are seeing.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
@@ -53,7 +53,7 @@ export default function ProblemSection() {
             Everyone&rsquo;s adopting AI. You know you should be too.
           </h2>
           <p className="mt-5 text-lg text-terminal-text/60 max-w-xl">
-            You&rsquo;ve tried the tools. You&rsquo;ve watched the videos. Nothing stuck.
+            You&rsquo;ve tried some of the tools. You&rsquo;ve heard the hype. Nothing actually changed.
           </p>
         </ScrollReveal>
 

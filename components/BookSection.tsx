@@ -8,12 +8,12 @@ export default function BookSection() {
           <div className="max-w-2xl mx-auto text-center">
             <p className="eyebrow">The book</p>
             <h2 className="heading-section text-2xl sm:text-3xl mt-5 text-balance">
-              Want to explore the methodology first?
+              Want to explore my methodology first?
             </h2>
             <p className="body-text mt-5 max-w-lg mx-auto">
-              The thinking behind the approach — in book form.{" "}
+              The thinking behind my approach to personal productivity — in book form.{" "}
               <em className="font-display">Build Your AI-Powered Productivity System</em>{" "}
-              walks you through the exact framework — available now on Amazon.
+              walks you through the exact framework I use to manage my commitments — available now on Amazon.
             </p>
           </div>
         </ScrollReveal>

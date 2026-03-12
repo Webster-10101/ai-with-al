@@ -20,16 +20,13 @@ export default function ShiftSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div>
             <ScrollReveal>
-              <p className="eyebrow">The shift</p>
+              <p className="eyebrow">Get on the front foot</p>
               <h2 className="heading-section text-2xl sm:text-3xl md:text-4xl mt-5 text-balance">
                 What if you had AI systems that actually ran themselves?
               </h2>
               <div className="mt-6 space-y-4">
                 <p className="body-text">
-                  Not a chatbot you prompt when you remember to. A system — built on Claude — that processes your real inputs — meeting notes, project updates, client briefs — and turns them into structured, actionable next steps.
-                </p>
-                <p className="body-text">
-                  AI as an <strong className="text-charcoal font-medium">operating layer</strong> for your business. Always watching, always organising, always surfacing what matters — so your team can focus on the work that counts.
+                  AI as an <strong className="text-charcoal font-medium">operating layer</strong> for your business and what matters in your life and work. Always watching, always organising, always surfacing what matters — so you and your team can focus on the work that counts.
                 </p>
               </div>
             </ScrollReveal>
@@ -48,15 +45,15 @@ export default function ShiftSection() {
           <div className="grid sm:grid-cols-3 gap-8">
             {[
               {
-                label: "Map",
-                detail: "We map your workflows, your team's pain points, and where time is leaking.",
+                label: "Discovery",
+                detail: "We map your workflows together, your pain points, and where you're leaking time or opportunities.",
               },
               {
                 label: "Build",
                 detail: "Claude Code processes your real inputs — turning unstructured information into organised action.",
               },
               {
-                label: "Run",
+                label: "Get ahead",
                 detail: "You walk away with working systems, custom SOPs, and a plan your team can follow independently.",
               },
             ].map((step, i) => (

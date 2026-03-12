@@ -13,7 +13,7 @@ export default function AboutSection() {
             </h2>
             <div className="mt-6 space-y-4">
               <p className="body-text">
-                I&rsquo;m Alistair Webster — a speaking and confidence coach, AI consultant, and co-founder of{" "}
+                I&rsquo;m Alistair Webster — a coach, speaking and confidence coach, and co-founder of{" "}
                 <a href="https://freelancingforgood.com" target="_blank" rel="noopener noreferrer" className="text-sage font-medium hover:text-sage-dark transition-colors">Freelancing for Good</a>.
                 I built AI systems to run my own business — managing multiple ventures, processing voice notes into action, keeping nothing in my head. Then I wrote{" "}
                 <a href="https://claudeclarity.com" target="_blank" rel="noopener noreferrer" className="text-sage font-medium hover:text-sage-dark transition-colors"><em>Build Your AI-Powered Productivity System</em></a>{" "}
