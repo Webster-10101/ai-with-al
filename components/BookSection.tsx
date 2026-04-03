@@ -32,6 +32,8 @@ export default function BookSection() {
               </h3>
               <p className="text-sm text-charcoal-muted mt-2">
                 A practical starting point for building your own AI productivity system.
+                For 1:1 setup help, see{" "}
+                <a href="https://claudeclarity.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">claudeclarity.com</a>.
               </p>
 
               <a
